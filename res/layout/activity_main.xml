@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:background="#ffffff"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:background="#ffff00"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="15dp" >
+
+        <com.example.avatarcache.ZQImageViewRoundOval
+            android:id="@+id/personal_image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/userid_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="切切歆语"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" >
+        </TextView>
+
+        <com.example.avatarcache.ZQImageViewRoundOval
+            android:id="@+id/personal_image2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout1"
+        android:orientation="vertical" 
+        android:layout_marginTop="15dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加载网络图片并缓存" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取缓存头像" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
