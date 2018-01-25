@@ -1,4 +1,4 @@
-# 登录圆形头像之网络加载与缓存到本地
+### 登录圆形头像之网络加载与缓存到本地
 
  <p>Android开发中常常有用户头像显示，似乎大多数都是圆形显示，如果每次加载网络头像，会频繁的请求网络，所以本文主要说的是登录时的头像网络加载和缓存到本地，以便于下次加载时直接从本地获取即可。</p> 
 <p>效果图</p> 
@@ -135,4 +135,4 @@ public class MainActivity extends Activity implements OnClickListener {
 </code></pre> 
 <p>&nbsp;</p> 
 <span id="OSC_h2_1"></span>
-<h2><span style="color:#B22222">由于代码太多，完整代码未给出，源码直接下载即可</span></h2> 
+
