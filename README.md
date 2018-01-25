@@ -125,7 +125,8 @@ public class MainActivity extends Activity implements OnClickListener {
 }
 </code></pre> 
 <p>不要忘记在AndroidManifest.xml加权限哦！</p> 
-<pre><code class="language-html">    &lt;uses-permission android:name="android.permission.INTERNET"&gt;&lt;/uses-permission&gt;
+<pre><code class="language-html">  
+        &lt;uses-permission android:name="android.permission.INTERNET"&gt;&lt;/uses-permission&gt;
 	&lt;uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/&gt;
 	&lt;uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/&gt;
 	&lt;uses-permission android:name="android.permission.READ_PHONE_STATE"&gt;&lt;/uses-permission&gt;
